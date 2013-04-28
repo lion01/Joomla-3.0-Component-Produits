@@ -7,7 +7,7 @@
 	<author>Clement Lesaulnier</author>
 	<authorEmail>cas138@hotmail.fr</authorEmail>
 	<authorUrl>http://github.com/clemaurny/</authorUrl>
-	<copyright>Copyright (C) 2013 Clement Lesaulnier. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2013 Christophe Demko - version Clement Lesaulnier. All rights reserved.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<!--  The version string is recorded in the components table -->
 	<version>2.4.O</version>
@@ -92,7 +92,7 @@
 	<!-- UPDATESERVER DEFINITION -->
 	<updateservers>
 		<!-- Note: No spaces or linebreaks allowed between the server tags -->
-		<server type="extension" priority="1" name="Produit Update Site">http://localhost/inovia/administrator/components/com_produits/produit-update.xml</server>
+		<server type="extension" priority="1" name="Produit Update Site">http://domain.com/administrator/components/com_produits/produit-update.xml</server>
 	</updateservers>
  
 </extension>
