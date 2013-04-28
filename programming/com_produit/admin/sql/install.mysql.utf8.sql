@@ -28,9 +28,9 @@ CREATE TABLE `#__produit_media` (
 ) ENGINE=MyISAM AUTO_INCREMENT=0 DEFAULT CHARSET=utf8;
  
 INSERT INTO `#__produit_media` (`id`,`image_url`,`pdf_url`,`slug`,`created`) VALUES
-        (1,'images/produits/Filtration/3309621-4746523.jpg','pdf/produits/fiche_produit_filtre150_261011_1.pdf','Filtre FP3',CURDATE()),
-		(2,'images/produits/Filtration/filtre140.jpg','pdf/produits/fiche_produit_filtre140_261011_1_.pdf', 'Filtre 140', CURDATE()),
-                (3,'images/produits/Adoucissement/1550.jpg','pdf/produits/fiche_pdt_serie_3000.pdf','Adoucisseur', CURDATE());
+        (1,'images/produits/produit1.jpg','pdf/produits/produit1.pdf','Produit1',CURDATE()),
+		(2,'images/produits/produit2.jpg','pdf/produits/produit2.pdf', 'Produit2', CURDATE()),
+                (3,'images/produits/produit3.jpg','pdf/produits/produit300.pdf','Produit3', CURDATE());
 
 INSERT INTO `#__produit` (`title`,`type_produit`,`mediaid`, `intitule`, `created`, `catid`,`description`) VALUES
         ('Filtre 150','Filtration',1,'Filtre fin à rinçage à contre-courant','2013-18-13 13:19:59',13,'<table id="product">
