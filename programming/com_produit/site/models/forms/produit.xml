@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="upproduit">
+        <fieldset addfieldpath="/components/com_produit/models/fields" name="produit">
+ <field
+            name="id"
+            type="Products"
+            label="COM_PRODUIT_FORM_LBL_UPPRODUIT_ID"
+            description="COM_PRODUIT_FORM_DESC_UPPRODUIT_ID"
+            key_field="id"
+            value_field="title"
+            default="0"
+            required="true"
+            >
+                <option value="">JOPTION_SELECT_ID</option>
+        </field>
+ 
+        <field
+            name="title"
+            type="list"
+            description="COM_PRODUIT_FORM_DESC_UPPRODUIT_TITLE"
+            label="COM_PRODUIT_FORM_LBL_UPPRODUIT_TITLE"
+            required="true"
+            size="1"
+            default="0"
+            >
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                 <option value="9">9</option>
+                 <option value="10">10</option>
+        </field>
+        </fieldset>
+ 
+        
+</form>

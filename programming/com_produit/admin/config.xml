@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="title"
+		label="COM_PRODUIT_CONFIG_TITLE_SETTINGS_LABEL"
+		description="COM_PRODUIT_CONFIG_TITLE_SETTINGS_DESC"
+	>
+		<field
+			name="show_category"
+			type="radio"
+			label="COM_PRODUIT_PRODUIT_FIELD_SHOW_CATEGORY_LABEL"
+			description="COM_PRODUIT_PRODUIT_FIELD_SHOW_CATEGORY_DESC"
+			default="0"
+                        menuitems="true"
+		>
+			<option value="0">JHIDE</option>
+			<option value="1">JSHOW</option>
+		</field>
+	</fieldset>
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+	>
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			class="inputbox"
+			validate="rules"
+			filter="rules"
+			component="com_produit"
+			section="component"
+		/>
+	</fieldset>
+</config>

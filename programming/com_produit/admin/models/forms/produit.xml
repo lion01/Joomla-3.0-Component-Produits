@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form
+         addrulepath="/administrator/components/com_produit/models/rules"
+>
+	<fieldset name="details">
+		<field
+			name="id"
+			type="hidden"
+		/>
+		<field
+			name="catid"
+			type="category"
+			extension="com_produit"
+			class="inputbox"
+			default=""
+			label="Categorie"
+			description="catégorie associée au produit"
+			required="true"
+		>
+			<option value="0">JOPTION_SELECT_CATEGORY</option>
+		</field>
+		<field
+			name="title"
+			type="text"
+			label="Titre"
+			description="Titre du produit"
+			size="40"
+			class="inputbox validate-title"
+			validate="title"
+			required="true"
+			default=""
+		/>
+		<field
+			name="type_produit"
+			type="text"
+			label="Type"
+			description="Type de produit"
+			size="40"
+			class="inputbox validate-title"
+			required="true"
+			default=""
+		/>
+		<field 
+			name="created"
+			type="calendar"
+			default="5-03-2013"
+			label="Sélection de l'editeur" 
+			description="fiche technique"
+		/>
+
+		<field 
+			name="description"
+			type="editor"
+			default="none"
+			label="Sélection de la date" 
+			description="date de publication"
+            filter="JComponentHelper::filterText"
+            buttons="true"
+			 />
+		
+		<field
+			name="mediaid"
+            type="mediaid"
+			extension="com_produit"
+			class="inputbox"
+			default=""
+			label="Medias"
+			description="medias associés au produit"
+			
+		>
+			
+		</field>
+		
+	</fieldset>
+	
+</form>
